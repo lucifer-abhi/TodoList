@@ -1,6 +1,0 @@
-{
-  "name": "Task Manager",
-  "description": "A feature-rich Todo List app with themes, search, priorities, tags, deadlines, and filtering.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
