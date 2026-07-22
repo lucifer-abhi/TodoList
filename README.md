@@ -1,53 +1,63 @@
-# 📝 To-Do List Website
+# 📝 React To-Do List Website
 
-A modern, responsive **To-Do List Website** built with **HTML5, CSS3, and Vanilla JavaScript** to help users organize daily tasks efficiently. It features a clean interface, smooth interactions, and responsive design for a seamless experience across all devices.
+A modern, responsive **To-Do List Website** built with **React.js** to help users organize and manage daily tasks efficiently. It features a clean user interface, smooth interactions, reusable components, and a fully responsive design that delivers a seamless experience across desktop, tablet, and mobile devices.
 
 🌐 **Live Demo:** https://lucifer-todolist.netlify.app/
 
 ## ✨ Features
 
 * ✅ Add, edit, and delete tasks
-* 📌 Mark tasks as completed
+* ✔️ Mark tasks as completed or pending
 * 🔍 Filter tasks (All, Active, Completed)
-* 💾 Local Storage support to save tasks
+* 💾 Persistent task storage using Local Storage
+* ⚛️ Built with reusable React components
 * 📱 Fully responsive design
-* 🌙 Modern and clean UI
-* ⚡ Fast and lightweight performance
+* 🌙 Modern and clean user interface
+* ⚡ Fast performance with React
+* 🎨 Smooth animations and interactive experience
 
 ## 📂 Project Structure
 
-* **index.html** – Website structure and task interface.
-* **style.css** – Styling, responsive layout, and animations.
-* **main.js** – Task management, filtering, Local Storage, and user interactions.
-* **assets/** – Icons and images.
+* **src/** – Contains all React components, pages, styles, and application logic.
+* **public/** – Static assets and HTML template.
+* **assets/** – Images, icons, and other static resources.
+* **package.json** – Project dependencies and scripts.
 * **README.md** – Project documentation.
 
 ## 🚀 How to Run
 
-1. Download or clone this repository.
+1. Clone this repository.
 2. Open the project folder.
-3. Open **index.html** in your browser.
+3. Install dependencies:
 
-**Or (VS Code):**
+   ```bash
+   npm install
+   ```
+4. Start the development server:
 
-* Open the folder in VS Code.
-* Run **Live Server** (optional).
+   ```bash
+   npm run dev
+   ```
+5. Open the local URL displayed in your terminal.
 
 ## 🛠 Technologies Used
 
+* React.js
+* JavaScript (ES6+)
 * HTML5
 * CSS3
-* JavaScript (ES6)
-* CSS Flexbox & Grid
+* React Hooks
 * Local Storage API
+* Responsive Web Design
 
 ## 🔮 Future Improvements
 
 * 📅 Due dates & reminders
 * 🏷️ Task categories
-* 🌙 Multiple themes
+* 🌙 Multiple theme support
 * ☁️ Cloud synchronization
 * 📊 Task analytics
+* 🔐 User authentication
 
 ## 📄 License
 
@@ -58,6 +68,8 @@ This project is licensed under the **MIT License**.
 **Abhyuday Srivastava**
 
 Frontend Developer | Python Developer
+
+Created with ❤️ using **React.js**.
 
 ⭐ If you like this project, consider giving it a **star** on GitHub!
 
